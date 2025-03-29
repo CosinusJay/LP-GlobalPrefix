@@ -1,0 +1,14 @@
+name: LP-GlobalPrefix
+version: '1.0'
+main: dev.cosinusjay.lpGlobalPrefix.Main
+api-version: '1.18'
+prefix: LP-GP
+load: STARTUP
+authors: [CosinusJay]
+website: https://github.com/CosinusJay
+
+commands:
+  reloadgroups:
+    description: Reloads all Chat/Tab prefixes
+    permission: lpgp.command.reloadgroups
+    aliases: [rg]
